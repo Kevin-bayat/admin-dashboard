@@ -1,0 +1,105 @@
+.app.dark {
+  background-color: #222;
+  color: rgb(156, 156, 156);
+
+  .table {
+    background-color: #222222;
+    .tableCell {
+      color: gray;
+
+      .status {
+        background-color: #222222;
+        color: gray;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .chartGrid {
+    stroke: rgba(228, 228, 228, 0.219);
+  }
+
+  .navbar {
+    color: gray;
+    border-color: #333;
+
+    .search {
+      color: gray;
+      border-color: gray;
+      .icon {
+        color: gray;
+      }
+      input {
+        color: gray;
+        border: none;
+        font-weight: bold;
+      }
+    }
+    .item {
+      color: gray;
+    }
+  }
+  .sideBar {
+    background-color: #222222;
+    border-color: #464646;
+    hr {
+      border-color: #333;
+    }
+    .top {
+      .logo {
+        color: gray;
+      }
+    }
+    .center {
+      ul {
+        li {
+          .icon {
+            color: gray;
+          }
+          &:hover {
+            background-color: #4f4f4f;
+          }
+        }
+      }
+    }
+  }
+  .dataTable {
+    background-color: #222222;
+    .newUser {
+      color: gray;
+
+      .new{
+        border: 1px solid #333 ;
+        color: gray;
+      }
+    }
+    .dataGrid {
+      color: gray;
+      border: none;
+    }
+    .cellAction{
+      background-color: #222222;
+
+     .viewButton,.deleteButton{
+       border: none;
+       color: gray;
+     }
+    }
+    .cellWithStatus{
+      background-color: #222222;
+      color: gray;
+      font-weight: bold;
+    }
+  }
+  .new{
+    .top{
+      h1{
+        color: gray;
+      }
+
+    }
+  }
+ input{
+   background-color: transparent;
+ }
+}
